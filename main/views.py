@@ -23,4 +23,4 @@ def index(request):
 		return render(request=request,template_name="main.html",context={"weather":weather})
 
 	else:
-		return render(request,template_name="main.html")
+		return render(request=request,template_name="main.html")		
