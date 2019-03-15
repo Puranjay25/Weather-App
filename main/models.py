@@ -6,4 +6,4 @@ class city(models.Model):
 	city_name=models.TextField()
 
 	def __init__(self):
-		self.city_name
+		reutrn self.city_name
